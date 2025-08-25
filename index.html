@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trojimperativ projektu – Interaktivní vizualizace trojimperativu</title>
+  <meta name="description"
+    content="Interaktivní simulátor trojimperativu projektu (čas – rozpočet – kvalita). Vizualizujte kompromisy, učte se na příkladech a optimalizujte rozhodování." />
+  <meta name="robots" content="index,follow" />
+  <meta name="author" content="Trojimperativ projektu" />
+  <meta name="keywords"
+    content="trojimperativ, projektové řízení, čas, rozpočet, kvalita, scope, simulátor, vzdělávání" />
+  <meta name="theme-color" content="#0f172a" media="(prefers-color-scheme: dark)" />
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+  <link rel="canonical" href="/" />
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="cs_CZ" />
+  <meta property="og:title" content="Trojimperativ projektu – Interaktivní vizualizace" />
+  <meta property="og:description"
+    content="Interaktivní simulátor trojimperativu projektu (čas – rozpočet – kvalita). Zkoušejte scénáře a pochopte kompromisy." />
+  <meta property="og:url" content="/" />
+  <meta property="og:site_name" content="Trojimperativ projektu" />
+  <meta property="og:image" content="/og-image.png" />
+  <meta property="og:image:alt" content="Grafická vizualizace trojimperativu projektu" />
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Trojimperativ projektu – Interaktivní vizualizace" />
+  <meta name="twitter:description"
+    content="Simulátor trojimperativu: čas × rozpočet × kvalita. Odemkněte hlubší pochopení projektových kompromisů." />
+  <meta name="twitter:image" content="/og-image.png" />
+  <!-- Icons -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <!-- Structured data -->
+  <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "LearningResource",
+          "name": "Trojimperativ projektu – Interaktivní vizualizace",
+          "description": "Interaktivní simulátor trojimperativu projektu (čas – rozpočet – kvalita).",
+          "educationalUse": "training",
+          "inLanguage": "cs",
+          "url": "/",
+          "author": { "@type": "Organization", "name": "Trojimperativ projektu" }
+        }
+      </script>
+  <!-- Matomo (with consent) -->
+  <script>
+    (function () {
+      var _paq = window._paq = window._paq || [];
+      _paq.push(['requireConsent']);
+      _paq.push(['enableLinkTracking']);
+      var u = "//matomo.czechnomad.cz/";
+      _paq.push(['setTrackerUrl', u + 'matomo.php']);
+      _paq.push(['setSiteId', '4']);
+      _paq.push(['anonymizeIp']);
+      var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+      g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
+      try {
+        var stored = localStorage.getItem('matomo_consent');
+        if (stored === 'granted') {
+          _paq.push(['setConsentGiven']);
+          _paq.push(['trackPageView']);
+        }
+      } catch (e) { }
+    })();
+  </script>
+  <!-- End Matomo Code (noscript moved to body) -->
+</head>
+
+<body>
+  <div id="root"></div>
+  <noscript>
+    <p><img referrerpolicy="no-referrer-when-downgrade" src="//matomo.czechnomad.cz/matomo.php?idsite=4&amp;rec=1"
+        style="border:0" alt="Matomo" /></p>
+  </noscript>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>

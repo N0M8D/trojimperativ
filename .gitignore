@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+
+# Build output
+build/
+dist/
+.tmp/
+.temp/
+
+# Vercel
+.vercel/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Cache
+.cache/
+.eslintcache
+.stylelintcache
+.tsbuildinfo
+vite.config.timestamp-* 
+
+# Coverage / test
+coverage/
+*.lcov
+
+# Misc
+*.pid
+*.pid.lock
+
+# Generated assets
+public/og-image.*
+public/*-cache.json
+
+# Optional lockfiles (choose one to keep tracked if desired)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
