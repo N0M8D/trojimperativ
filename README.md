@@ -25,4 +25,18 @@
   - Node.js Version: 18+ (default is fine)
 
   The file `vercel.json` pins the output directory and enables clean URLs.
+
+  ## Favicon & Icons
+
+  Place icons in `public/`:
+  - `public/favicon.svg` (source vector)
+  - `public/favicon.ico` (16–32px multi-size)
+  - `public/apple-touch-icon.png` (180x180)
+  - `public/og-image.png` (social share)
+
+  To generate `favicon.ico` from the SVG (example using Sharp):
+  ```bash
+  npx sharp -i public/favicon.svg -o public/favicon.ico --width 32
+  ```
+  Or use an online generator (RealFaviconGenerator) and drop files into `public/`.
   
